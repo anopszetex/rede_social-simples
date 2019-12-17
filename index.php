@@ -1,6 +1,6 @@
 <?php 
 	include('config.php');
-	
+		
 	$homeController         = new controllers\homeController();
 	$perfilController       = new controllers\perfilController();
 	$comunidadeController   = new controllers\comunidadeController();
