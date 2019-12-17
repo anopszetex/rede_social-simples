@@ -6,6 +6,10 @@
 			return isset($_SESSION['logged']) ? true : false;
 		}
 
+		public static function preventAccess($request, $currentFile, $current) {
+			if($request == 'GET' && $currentFile == $current)
+				die('404 Forbidden');
+		}
 
 		public static function alert($tipo, $mensagem) {
 			switch($tipo) {
