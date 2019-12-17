@@ -1,0 +1,394 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Helvetica;
+}
+
+body{
+	background: #e9ebee;
+}
+
+.w40{
+	background: white;
+	width: 40%;
+	padding: 30px;
+	float: left;
+	border: 10px solid #e9ebee;
+}
+
+
+.w30{
+	background: white;
+	width: 30%;
+	padding: 30px;
+	float: left;
+	border: 10px solid #e9ebee;
+}
+
+
+.w70{
+	background: white;
+	width: 70%;
+	padding: 30px;
+	float: left;
+	border: 10px solid #e9ebee;
+}
+
+.w60{
+	background: white;
+	width: 60%;
+	padding: 30px;
+	float: left;
+	border: 10px solid #e9ebee;
+}
+
+.w100{
+	background: white;
+	width: 100%;
+	padding: 30px;
+	float: left;
+	border: 10px solid #e9ebee;
+}
+
+.container{
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+.clear{clear: both;}
+
+header{
+	padding: 8px 0;
+	background: #4267b2;
+	box-shadow: 0px 0px 4px 2px #6c6565;
+}
+
+header .logo{
+	float: left;
+}
+
+header .logo a{
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+header .form-login{
+	float: right;
+}
+
+header .form-login input[type=text],
+header .form-login input[type=password]{
+	width: 200px;
+	height: 25px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding-left: 8px;
+	transition: all 100ms ease-in;
+}
+
+header .form-login input[type=submit]{
+	background: #2196f3;
+	border: 0;
+	cursor: pointer;
+	color: white;
+	height: 25px;
+	width: 120px;
+    -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+}
+
+.form-login input[type="text"]:focus, 
+.form-login input[type="password"]:focus{
+	box-shadow: 0px 0px 9px 0px #5ab2f580;
+}
+
+.form-login input[type="submit"]:hover, 
+.form-login input[type="submit"]:focus, 
+.form-login input[type="submit"]:active{ 
+	outline: 0; 
+	opacity: 0.9; 
+	color: #fff;
+}
+
+.box{
+	margin: 20px auto;
+	background: #fafafa/*white*/;
+	padding: 30px 15px;
+	border-radius: 4px;
+	box-shadow: 0px 3px 3px #ddd;
+}
+
+section.cadastro h2{
+	font-weight: bold;
+	font-size: 27px;
+	margin: 10px 0px;
+	color: #505e6c;
+	border-bottom: 1px solid #eeeeee;
+}
+
+section.cadastro form{
+	margin-top: 15px;
+}
+
+section.cadastro form input[type=text],
+section.cadastro form input[type=password],
+section.cadastro form input[type=email]{
+	width: 100%;
+	height: 35px;
+	padding-left: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-bottom: 8px;
+}
+
+section.cadastro form input[type=submit]{
+	display: block;
+	width: 130px;
+	height: 30px;
+	cursor: pointer;
+	border: 0;
+	background: #2196f3;
+	margin-top: 10px;
+	color: #fff;
+    -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+}
+
+section.cadastro form input[type="submit"]:hover, 
+section.cadastro form input[type="submit"]:focus, 
+section.cadastro form input[type="submit"]:active{ 
+	outline: 0; 
+	opacity: 0.9; 
+	color: #fff;
+}
+
+section.cadastro form input[type=file]{
+	border: 1px solid #ccc;
+	width: 50%;
+	padding: 8px;
+	border-radius: 4px;
+}
+
+section.cadastro p{
+	font-size: 14px;
+	color: #505e6c;
+	margin: 8px 0;
+	font-weight: lighter;
+}
+
+.box-alerta{
+	margin-top: 10px;
+	width: 100%;
+	text-align: center;
+	padding: 8px 0;
+	border-radius: 3px;
+}
+
+.sucesso{
+	background: #a5d6a7;
+	color: white;
+}
+
+.erro{
+	background: #f75353;
+	color: white;
+}
+
+.btn-opt-menu{
+	float: right;
+}
+
+.btn-opt-menu a{
+	color: white;
+	text-decoration: none;
+	background: #3b5ca0;
+	padding: 10px 7px;
+	display: inline-block;
+}
+
+h2.title{
+	font-weight: bold;
+	font-size: 27px;
+	margin: 10px 0px;
+	color: #505e6c;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.container-img{
+	margin-top: 10px;
+}
+
+.container-img img{
+	width: 100%;
+}
+
+
+.lista-amigos{
+	margin-top: 10px;
+}
+
+.lista-amigos h3{
+	background: #4267b2;
+	color: white;
+	padding: 8px;
+
+}
+
+.img-single-amigo{
+	float: left;
+	width: 33.3%;
+	padding-top: 33.3%;
+	position: relative;
+}
+
+
+.img-single-amigo-wraper{
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	width: calc(100% - 10px);
+	height: calc(100% - 10px);
+	background-size: 100% 100%;
+	background-color: #ccc;
+}
+
+.membro-listagem{
+	width: 20%;
+	float: left;
+	padding: 8px;
+}
+
+.membro-listagem p{
+	color: #4b4b4b;
+	font-size: 15px;
+	margin: 8px 0;
+}
+
+.membro-listagem a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 4px 5px;
+	background: #2196f3;
+	font-size: 14px;
+	color: #fff;
+    -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+}
+
+.box-imagem{
+	width: 100%;
+	padding-top: 100%;
+	position: relative;
+}
+
+.box-imagem-wraper{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-size: 100% 100%;
+}
+
+.solicitacoes-table{
+	margin: 10px 0;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.solicitacoes-table tr{
+	text-align: left;
+	/*border: 1px solid #ccc;*/
+}
+
+.solicitacoes-table img{
+	max-width: 100px;
+}
+
+.solicitacoes-table p{
+	margin-top: 8px;
+	font-size: 14px;
+	color: #444;
+}
+
+section.feed form{ margin: 15px 0;}
+
+section.feed textarea{
+	width: 100%;
+	height: 120px;
+	border: 1px solid #ccc;
+	padding: 8px;
+}
+
+section.feed input[type=submit]{
+	margin-top: 5px;
+	background: #2196f3;
+	border: 0;
+	cursor: pointer;
+	color: white;
+	height: 25px;
+	width: 120px;
+    -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+}
+
+
+.post-single-user{margin: 10px 0;}
+
+.img-user-post{
+	float: left;
+}
+
+.img-user-post img{
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+}
+
+.post-user-single{
+	float: left;
+	width: calc(100% - 60px);
+	padding: 4px 10px;
+}
+
+.post-user-single p{
+	padding: 0 5px;
+	font-size: 15px;
+}
+
+
+@media screen and (max-width: 768px){
+	header .form-login{
+		margin-top: 15px;
+	}
+
+	.w30{
+		width: 100%;
+	}
+
+	.w70{
+		width: 100%;
+	}
+
+	header .form-login input[type=text]{
+		margin-bottom: 8px;
+	}
+
+	header .form-login input[type=submit]{
+		margin-top: 5px;
+	}
+}
+
+@media screen and (max-width: 500px){
+
+	section.cadastro h2{
+		text-align: center;
+	}
+
+	section.cadastro form input[type=submit]{
+		width: 100%;
+	}
+
+	header .form-login{
+		text-align: center;
+	}
+}
