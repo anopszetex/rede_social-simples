@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 17-Dez-2019 às 01:39
+-- Generation Time: 18-Dez-2019 às 04:37
 -- Versão do servidor: 10.4.6-MariaDB
 -- versão do PHP: 7.3.3
 
@@ -67,7 +67,7 @@ CREATE TABLE `tb_site.membros` (
 --
 
 INSERT INTO `tb_site.membros` (`id`, `usuario`, `nome`, `email`, `senha`, `imagem`, `status`, `cidade`) VALUES
-(5, 'anopszetex', 'Andre Luis', 'andre9562015@hotmail.com', 'f1be45ef4a3997e8081d12f7580847d5', '5dcdfd38a8d25.jpg', '', ''),
+(5, 'anopszetex', 'Andre Luis', 'andre@hotmail.com', 'e10adc3949ba59abbe56e057f20f883e', '5dcdfd38a8d25.jpg', '', ''),
 (6, 'synapse', 'Jackson Silva', 'jackson@hotmail.com', 'e10adc3949ba59abbe56e057f20f883e', '5dd04afdbacd3.jpg', '', ''),
 (7, 'thalesdiel', 'Thales Cassiano', 'thales@hotmail.com', 'e10adc3949ba59abbe56e057f20f883e', '5dd04b219cb90.jpg', '', '');
 
